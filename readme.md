@@ -4,7 +4,7 @@ The purpose of this extension is to enable us to add custom CSS code which will 
 
 After the extension is installed, click on the extension icon and copy the [**style.css**](style.css) code and paste it into the CSS window.
 
-![RTL for Ghost Blog Admin Extention](https://user-images.githubusercontent.com/626005/81950090-d0c71e00-9603-11ea-8cc7-d64d08dee6d3.png)
+![RTL for Ghost Blog Admin Extention](https://user-images.githubusercontent.com/626005/81951062-fef92d80-9604-11ea-8fc8-57ed67aec7d7.png)
 
 The final result will be like.
 

@@ -6,7 +6,7 @@ After the extension is installed, click on the extension icon and copy the [**st
 
 ![RTL for Ghost Blog Admin Extention](https://user-images.githubusercontent.com/626005/81951062-fef92d80-9604-11ea-8fc8-57ed67aec7d7.png)
 
-The final result will be like.
+### The final result will be like
 
 ![admin](https://user-images.githubusercontent.com/626005/81950057-c573f280-9603-11ea-8988-9f912aae69da.png)
 

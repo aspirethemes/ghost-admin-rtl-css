@@ -1,0 +1,438 @@
+/* Global Layout */
+
+.ember-application {
+  direction: rtl;
+  text-align: right;
+}
+
+/* Utilities */
+
+.ml1 {
+  margin-left: 0;
+  margin-right: .4rem;
+}
+
+.mr2 {
+    margin-right: 0;
+    margin-left: .8rem;
+}
+
+.mr3 {
+  margin-right: 0;
+  margin-left: 1.2rem;
+}
+
+.mr4 {
+    margin-right: 0;
+    margin-left: 1.6rem;
+}
+
+.pl5 {
+  padding-left: 0;
+  padding-right: 2rem;
+}
+
+.mr6 {
+  margin-right: 0;
+  margin-left: 2.4rem;
+}
+
+.nl1 {
+  margin-left: 0;
+  margin-right: -.4rem;
+}
+
+.nr1 {
+  margin-right: 0;
+  margin-left: -.4rem;
+}
+
+.pl1 {
+  padding-left: 0;
+  padding-right: .4rem;
+}
+
+.pr1 {
+  padding-right: 0;
+  padding-left: .4rem;
+}
+
+.br {
+  border-right-style: none;
+  border-right-width: 0;
+  border-left-style: solid;
+  border-left-width: 1px;
+}
+
+.pl3 {
+  padding-left: 0;
+  padding-right: 1.2rem;
+}
+
+.pl2 {
+  padding-left: 0;
+  padding-right: .8rem;
+}
+
+.right-6 {
+  right: auto;
+  left: 2.4rem;
+}
+
+.left-3 {
+  left: auto;
+  right: 1.2rem;
+}
+
+/* Sign In Form */
+
+.forgotten-wrap .forgotten-link {
+  right: auto;
+  left: 1px;
+  direction: ltr;
+  border-left: 0;
+  border-right: 1px solid #d6e3eb;
+}
+
+/* Header */
+
+.gh-contentfilter-menu:last-of-type .gh-contentfilter-menu-trigger {
+  border-top-right-radius: 0!important;
+  border-bottom-right-radius: 0!important;
+  border-top-left-radius: 4px!important;
+  border-bottom-left-radius: 4px!important;
+}
+
+.gh-contentfilter-type .gh-contentfilter-menu-trigger {
+  border-top-left-radius: 0!important;
+  border-bottom-left-radius: 0!important;
+  border-top-right-radius: 4px!important;
+  border-bottom-right-radius: 4px!important;
+}
+
+.gh-contentfilter-menu-trigger, 
+.gh-contentfilter-menu-trigger--active, 
+.gh-contentfilter-menu-trigger:focus {
+  border-right: 0;
+  border-left: 1px solid #f8fafc;    
+}
+
+.gh-canvas-title svg {
+  transform: scale(-1, -1);
+}
+
+.gh-btn-group .gh-btn:last-of-type {
+  border-radius: 5px 0 0 5px;
+}
+
+.gh-btn-group .gh-btn:first-of-type {
+  border-radius: 0 5px 5px 0;
+}
+
+.gh-btn-group .gh-btn {
+  border-left: 0;
+  border-right: 1px solid #e5eff5;
+}
+
+/* Sidebar */
+
+.gh-nav {
+  border-right: 0;
+  border-left: 1px solid #e5e9ef;
+}
+
+/* Sidebar > Links Icons */
+
+.gh-nav-list svg {
+  margin-right: 0;
+  margin-left: 15px;
+}
+
+/* Sidebar > Nested Links Icons */
+
+.gh-nav-view-list a {
+  padding-right: 58px;
+}
+
+/* Sidebar > Favicon */
+
+.gh-nav-menu-icon {
+  margin-right: 0;
+  margin-left: 10px;
+}
+
+/* Sidebar > Open site in new tab icon */
+
+.gh-nav-list .gh-secondary-action {
+  right: auto;
+  left: 8px;
+}
+
+.gh-nav-list .gh-secondary-action span svg {
+  margin-left: 0;
+}
+
+/* Posts */ 
+
+.gh-post-list-featured {
+  padding: 15px 0 10px 20px;
+}
+
+.gh-list-row .gh-list-data:first-child {
+  padding-left: 0;
+  padding-right: 16px;
+}
+
+/* Tags */ 
+
+.gh-list-data svg {
+  transform: scale(-1, -1);
+}
+
+/* Members */ 
+
+.members-header .gh-members-header-search {
+  margin-right: 0;
+  margin-left: 12px;
+  border-right: 0;
+  border-left: 1px solid #cce0ea;
+  padding-right: 0;
+  padding-left: 12px;
+}
+
+.members-header .view-actions input.gh-members-list-searchfield {
+  min-width: 220px;
+  padding-left: 0;
+  padding-right: 30px;
+  border-bottom-left-radius: 4px;
+  border-bottom-right-radius: 0;
+  border-top-left-radius: 4px;
+  border-top-right-radius: 0;
+}
+
+.members-header .view-actions .gh-input-search-icon {
+  left: auto;
+  right: 10px;
+}
+
+.gh-btn-filter.first {
+  border-top-left-radius: 0;
+  border-top-right-radius: 4px;
+  border-bottom-left-radius: 0;
+  border-bottom-right-radius: 4px;
+}
+
+.gh-list-cellwidth-chevron svg {
+  transform: scale(-1, -1);
+}
+
+/* Staff */
+
+.user-list-item-figure {
+  margin-right: 0;
+  margin-left: 12px;
+}
+
+/* General */
+
+.gh-setting-content {
+  margin: 0 0 0 50px;
+}
+
+/* Design > Navigation */
+
+.gh-blognav-delete {
+  padding: 8px 10px 8px 0;
+}
+
+.gh-actions-cog, 
+.gh-blognav-label {
+  margin-right: 0;
+  margin-left: 10px;
+}
+
+.gh-blognav-grab {
+  padding: 6px 0 0 16px;
+}
+
+.gh-blognav-item:not(.gh-blognav-item--sortable) {
+  padding-left: 0;
+  padding-right: 16px;
+}
+
+.gh-blognav-add {
+  margin-left: 0;
+  margin-right: 9px;
+}
+
+/* Design > THEME DIRECTORY */
+
+.td-cta-content {
+  margin: 0 14px 0 0;
+}
+
+/* Design > INSTALLED THEMES */
+
+.apps-card-meta {
+  padding-right: 0;
+  padding-left: 70px;
+}
+
+/* Code Injection */
+
+.CodeMirror, 
+.CodeMirror * {
+  text-align: left;
+}
+
+/* Integration */
+
+.apps-configured svg {
+  margin-left: 0;
+  margin-right: 15px;
+}
+
+.apps-card-app-icon {
+  margin: 0 0 0 12px;
+}
+
+.apps-configured svg {
+  transform: scale(-1, -1);
+}
+
+/* Modal */
+
+.modal-header h1 {
+  margin-right: 0;
+}
+
+.modal-content .close {
+  left: 19px;
+  right: auto;
+}
+
+.modal-footer button {
+  margin-left: 0;
+  margin-right: 12px;
+}
+
+.modal-footer button:first-of-type {
+  margin-right: 0;
+}
+
+/* Post settings */
+
+.settings-menu-container {
+  border-left: 0;
+  border-right: 1px solid #e5eff5;
+}
+
+.settings-menu-container .settings-menu-pane {
+  left: 0;
+}
+
+.settings-menu-expanded .settings-menu-container {
+  left: 0;
+  right: auto;
+}
+
+.settings-menu-header.subview .back {
+  margin-left: 0;
+  margin-right: -15px;
+  transform: scale(-1, -1);
+}
+
+.settings-menu-pane .gh-date-time-picker-date {
+  margin-right: 0;
+  margin-left: 4px;
+}
+
+.gh-date-time-picker-timezone {
+  margin-left: 0;
+  margin-right: -30px;
+}
+
+.post-view-link {
+  right: auto;
+  left: 0;
+}
+
+.for-checkbox .input-toggle-component {
+  float: right;
+  margin-right: 0;
+  margin-left: 7px;
+}
+
+.nav-list-item {
+  padding: 9px 12px 10px 40px;
+}
+
+.nav-list-item button {
+  text-align: right;
+}
+
+.nav-list-item svg {
+  right: auto;
+  left: 10px;
+  transform: scale(-1, -1);
+}
+
+.gh-input-icon .gh-select select, 
+.gh-input-icon input {
+  padding-left: 0;
+  padding-right: 35px;
+}
+
+.gh-input-icon svg {
+  left: auto;
+  right: 10px;
+}
+
+.gh-select svg {
+  right: auto;
+  left: 1.2rem;
+}
+
+.gh-btn-block svg, 
+.gh-btn-icon svg {
+  margin-right: 0;
+  margin-left: .5em;
+}
+
+/* Editor Page Top */
+
+.nudge-right--2 {
+  right: 0;
+  left: 2px;
+  transform: scale(-1, -1);
+}
+
+/* Editor */
+
+.koenig-editor__editor>p+div {
+  direction: ltr;    
+}
+
+.koenig-plus-menu-button {
+  margin: -2px -66px 0 0;
+}
+
+.koenig-cardmenu {
+  left: auto;
+  right: 16px;
+}
+
+.gh-publishmenu-dropdown {
+  left: 0;
+  right: auto;
+  text-align: right;
+}
+
+.gh-publishmenu-radio-content {
+  margin: 0 15px 0 0;
+}
+
+.gh-date-time-picker-time {
+  margin-left: 0;
+  margin-right: 10px;
+}
